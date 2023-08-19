@@ -60,7 +60,7 @@ export const projectsData = [
   {
     title: "Buscatalento",
     description:
-      "Aplicación web enfocada en el intercambio de talentos entre diferentes usuarios registrados donde podran contactarse entre ellos.",
+      "Web app focused on trade between users theirs skills, where they will be learning each other.",
     tags: ["React", "Flask", "SQLAlchemy", "Bootstrap", "Figma"],
     imageUrl: corpcommentImg,
   },
@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "Django React NoteApp",
     description:
-      "A django server-app powered with ReactJS for design. Simple Notepad with list and crud activities.",
+      "A django server app powered with ReactJS for design. Simple Notepad with list and crud activities.",
     tags: ["React", "Django", "SQL", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
