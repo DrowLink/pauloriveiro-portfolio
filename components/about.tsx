@@ -45,7 +45,7 @@ export default function About() {
           learning about{" "}
           <span className="font-medium">history and philosophy</span>. I&apos;m also
           learning how to play the guitar. */}
-          As a Full-Stack developer, I'm excited to bring my skills in{" "} 
+          As a Full-Stack developer, I&apos;m excited to bring my skills in{" "} 
           <span className="font-medium">React, Javascript, Typescript, Django, Python, Tailwind, Bootstrap, Next.JS, HTML, and CSS.</span>{" "} 
           To a dynamic and innovative team. With a passion for automation and optimization on cutting-edge technology, 
           I am committed to streamlining routine processes and driving growth across a variety of industries. 
