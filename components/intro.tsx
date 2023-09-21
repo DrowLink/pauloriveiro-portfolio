@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi"
 import { FaGithubSquare } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
 import { useActiveSectionContext } from '@/context/active-section-context'
-
+import profile from '../public/profile.jpg'
 
 
 export default function Intro() {
@@ -21,7 +21,7 @@ export default function Intro() {
         <div className="flex items-center justify-center">
             <div className="relative">
                 <motion.div initial={{ opacity: 0, scale: 0}} animate={{ opacity: 1, scale: 1}} transition={{ type: "tween", duration: 0.2 }} className="">
-                    <Image src="https://images.unsplash.com/photo-1691622355048-4d75ac28ec31?fit=crop&w=368&h=368&q=100" alt='Paulo portrait' width="192" height="192" quality="95" priority={true} className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
+                    <Image src={profile} alt='Paulo portrait' width="192" height="192" quality="95" priority={true} className="h-24 w-[6.38rem] rounded-full object-cover border-[0.35rem] border-white shadow-xl"/>
                 </motion.div>
                 <motion.span initial={{ opacity: 0, scale: 0}} animate={{ opacity: 1, scale: 1}} transition={{ type: "spring", stiffness: 125, delay: 0.1, duration: 0.7, }} className='absolute bottom-0 right-0 text-4xl'>
                     👋
