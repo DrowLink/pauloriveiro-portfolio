@@ -95,4 +95,6 @@ export const skillsData = [
   "Python",
   "Django",
   "Framer Motion",
+  "Flask",
+  "FastAPI"
 ] as const;
