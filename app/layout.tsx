@@ -9,9 +9,13 @@ import ThemeContextProvider from '@/context/theme-context'
 
 const inter = Inter({ subsets: ['latin'] })
 
+// export const metadata = {
+//   title: 'Paulo | Personal Portfolio',
+//   description: 'Paulo is a fullstack developer',
+// }
 export const metadata = {
   title: 'Paulo | Personal Portfolio',
-  description: 'Paulo is a fullstack developer',
+  description: 'Paulo es un desarrollador fullstack',
 }
 
 export default function RootLayout({

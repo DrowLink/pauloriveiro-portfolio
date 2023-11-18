@@ -107,7 +107,7 @@ export const projectsData = [
   {
     title: "Buscatalento",
     description:
-      "Web app focused enfocada en el intercambio de habilidades entre usuarios, donde ellos aprenderan entre sí mismos.",
+      "Web app enfocada en el intercambio de habilidades entre usuarios, donde ellos aprenderan entre sí mismos.",
     tags: ["React", "Flask", "SQLAlchemy", "Bootstrap", "Figma"],
     imageUrl: corpcommentImg,
   },

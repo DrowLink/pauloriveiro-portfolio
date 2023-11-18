@@ -10,7 +10,7 @@ export default function About() {
   const { ref } = useSectionInView('Acerca');
 
   return (
-    <motion.section ref={ref} className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.175 }} id="about">
+    <motion.section ref={ref} className='mb-28 sm:mb-1 max-w-[45rem] text-center leading-8  scroll-mt-28' initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.175 }} id="about">
       {/* <SectionHeading>About me</SectionHeading> */}
       {/* <p className='mb-3'>
           As a Full-Stack developer, I&apos;m excited to bring my skills in{" "} 
@@ -20,7 +20,7 @@ export default function About() {
           With a strong background in operations and a love of organization, I am confident in my ability to bring 
           an adaptable, <span className="underline">detail-oriented</span>{" "} approach to any project.
         </p> */}
-      <SectionHeading>Acerca de mí</SectionHeading>
+      <SectionHeading>Acerca de mí 🔎</SectionHeading>
       <p className='mb-3'>
         Como desarrollador Full-Stack, Me complace aportar mis habilidades en{" "}
         <span className="font-medium">React, Javascript, Typescript, Django, Python, Tailwind, Bootstrap, Next.JS, PHP, Laravel, FastAPI, HTML, y CSS.</span>{" "}
