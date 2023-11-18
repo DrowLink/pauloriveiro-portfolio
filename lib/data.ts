@@ -6,25 +6,48 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
+// export const links = [
+//   {
+//     name: "Home",
+//     hash: "#home",
+//   },
+//   {
+//     name: "About",
+//     hash: "#about",
+//   },
+//   {
+//     name: "Projects",
+//     hash: "#projects",
+//   },
+//   {
+//     name: "Skills",
+//     hash: "#skills",
+//   },
+//   {
+//     name: "Contact",
+//     hash: "#contact",
+//   },
+// ] as const;
+
 export const links = [
   {
-    name: "Home",
+    name: "Inicio",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Acerca",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Proyectos",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     hash: "#skills",
   },
   {
-    name: "Contact",
+    name: "Contacto",
     hash: "#contact",
   },
 ] as const;
@@ -56,25 +79,49 @@ export const experiencesData = [
   },
 ] as const;
 
+// export const projectsData = [
+//   {
+//     title: "Buscatalento",
+//     description:
+//       "Web app focused on trade between users theirs skills, where they will be learning each other.",
+//     tags: ["React", "Flask", "SQLAlchemy", "Bootstrap", "Figma"],
+//     imageUrl: corpcommentImg,
+//   },
+//   {
+//     title: "Django WeatherApp",
+//     description:
+//       "Weather app comparator between different cities, django app driven with third api and server logical.",
+//     tags: ["Django", "Python", "React", "Tailwind"],
+//     imageUrl: rmtdevImg,
+//   },
+//   {
+//     title: "Django React NoteApp",
+//     description:
+//       "A django server app powered with ReactJS for design. Simple Notepad with list and crud activities.",
+//     tags: ["React", "Django", "SQL", "Tailwind"],
+//     imageUrl: wordanalyticsImg,
+//   },
+// ] as const;
+
 export const projectsData = [
   {
     title: "Buscatalento",
     description:
-      "Web app focused on trade between users theirs skills, where they will be learning each other.",
+      "Web app focused enfocada en el intercambio de habilidades entre usuarios, donde ellos aprenderan entre sí mismos.",
     tags: ["React", "Flask", "SQLAlchemy", "Bootstrap", "Figma"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Django WeatherApp",
     description:
-      "Weather app comparator between different cities, django app driven with third api and server logical.",
+      "Aplicacion de clima comparadora entre diferentes ciudades del mundo, Aplicación en Django manejada con lógica usando una api tercera.",
     tags: ["Django", "Python", "React", "Tailwind"],
     imageUrl: rmtdevImg,
   },
   {
     title: "Django React NoteApp",
     description:
-      "A django server app powered with ReactJS for design. Simple Notepad with list and crud activities.",
+      "Aplicacion en Django alimentada con ReactJS para diseño. Bloc de notas minimalista con operaciones CRUD y lista general.",
     tags: ["React", "Django", "SQL", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
@@ -96,5 +143,10 @@ export const skillsData = [
   "Django",
   "Framer Motion",
   "Flask",
-  "FastAPI"
+  "FastAPI",
+  "PHP",
+  "Laravel",
+  "MySQL",
+  "SSH",
+  "FTP"
 ] as const;
