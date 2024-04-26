@@ -148,5 +148,7 @@ export const skillsData = [
   "Laravel",
   "MySQL",
   "SSH",
-  "FTP"
+  "FTP",
+  "Flutter",
+  "Dart",
 ] as const;

@@ -38,8 +38,8 @@ export default function Intro() {
             <span className="font-bold">Hola, Soy Paulo.</span> Desarrollador{" "}
             <span className="font-bold"> full-stack.</span>
             <br/>
-            Me gusta crear <span className="italic">webs & apps</span>. Enfocado{" "}
-            <span className="underline">React, Django y PHP</span> 🤖.
+            Me gusta crear <span className="italic">webs & apps</span>. Enfocado en{" "}
+            <span className="underline">Flutter y Dart</span> 🤖📱.
         </motion.h1>
 
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium' initial={{ opacity:0, y:100 }} animate={{ opacity: 1, y: 0}} transition={{ delay: 0.1, }}>
